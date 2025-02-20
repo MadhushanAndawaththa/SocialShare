@@ -71,7 +71,7 @@ function App() {
       >
         {/* Background Image */}
         <Image
-          source={require('./assets/golf-background.jpg')}  // Make sure to add this image to your assets
+          source={require('./assets/golf-background.jpg')}
           style={styles.backgroundImage}
         />
         
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   },
   scoreCard: {
     width: '100%',
-    height: 500,  // Adjust this value based on your needs
+    height: 500,
     marginVertical: 20,
   },
   backgroundImage: {
